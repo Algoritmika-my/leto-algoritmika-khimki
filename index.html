@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
-<title>Летние IT-смены 2026 — Алгоритмика Химки</title>
+<title>Летние IT-смены 2026 — Алгоритмика Мытищи</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
 <style>
@@ -274,6 +274,149 @@ a{text-decoration:none;color:inherit}
   .ft-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px}
 }
 
+
+/* ========== MOBILE ADAPTATION PATCH ========== */
+@media(max-width:767px){
+  html{font-size:16px}
+  body{font-size:16px;line-height:1.5}
+  .ctn{padding:0 18px}
+  .sec{padding:48px 0}
+  .ttl{font-size:clamp(1.55rem,7vw,2rem);line-height:1.22;margin-bottom:12px;letter-spacing:-.02em}
+  .sub{font-size:1rem;line-height:1.55;max-width:100%}
+
+  .nav{padding:8px 0}
+  .nav-logo{font-size:1.05rem}
+  .burger{width:44px;height:44px;align-items:center;justify-content:center;border-radius:12px}
+  .burger span{width:24px;height:3px}
+  .nav-links.open{padding:12px 18px 18px;gap:8px}
+  .nav-links a{font-size:1rem;padding:14px 14px;min-height:48px;display:flex;align-items:center;justify-content:center}
+  .nav-cta{margin-top:4px}
+
+  .hero{padding:92px 0 42px}
+  .hero::after{width:280px;height:280px;top:-95px;right:-130px}
+  .hero-badge{font-size:.9rem;padding:8px 14px;margin-bottom:18px;white-space:normal}
+  .hero h1{font-size:clamp(2rem,9.6vw,2.55rem);line-height:1.12;letter-spacing:-.035em;margin-bottom:16px}
+  .hero-p{font-size:1.05rem;line-height:1.58;margin-bottom:22px}
+  .hero-btns{gap:12px}
+  .btn{width:100%;min-height:52px;padding:15px 18px;font-size:1rem;border-radius:16px;text-align:center;line-height:1.25}
+  .hero-stats{grid-template-columns:1fr;gap:10px;margin-top:26px}
+  .hero-stat{display:flex;align-items:center;justify-content:space-between;text-align:left;padding:16px 18px;border-radius:16px}
+  .hero-stat b{font-size:1.25rem;white-space:nowrap}
+  .hero-stat small{font-size:.95rem;text-align:right}
+
+  .adv-row{grid-template-columns:1fr;gap:12px;margin-top:22px}
+  .adv-c{display:flex;align-items:flex-start;gap:14px;text-align:left;padding:18px;border-radius:18px}
+  .adv-c .ico{font-size:2rem;margin:0;line-height:1}
+  .adv-c h3{font-size:1.02rem;margin-bottom:4px}
+  .adv-c p{font-size:.96rem;line-height:1.45}
+  .badges{gap:10px;margin-top:18px}
+  .badge{padding:14px 16px;border-radius:16px}
+  .badge .bi{font-size:1.55rem}
+  .badge .bt{font-size:1rem}
+  .badge .bt span{font-size:.88rem;margin-top:2px}
+
+  .prog-grid{gap:16px;margin-top:22px}
+  .prog{border-radius:20px}
+  .prog-top{padding:22px 18px 18px}
+  .prog-age{font-size:.86rem;padding:5px 13px;margin-bottom:10px}
+  .prog-top h3{font-size:1.28rem;line-height:1.2;padding-right:46px}
+  .prog-emo{font-size:2.25rem;right:16px;top:18px}
+  .prog-body{padding:18px}
+  .prog-d{font-size:1rem;line-height:1.55}
+  .prog-ul li{font-size:.98rem;line-height:1.45;padding:6px 0;gap:8px}
+  .prog-ul li::before{font-size:.75rem;margin-top:3px}
+  .prog-tags{gap:8px}
+  .prog-tag{font-size:.82rem;padding:6px 10px;border-radius:8px}
+
+  .gal{padding-top:8px}
+  .gl-grid{grid-template-columns:1fr;gap:14px;margin-top:22px}
+  .gl-item{aspect-ratio:4/3;border-radius:20px}
+  .gl-item span{font-size:.95rem;line-height:1.25;padding:36px 14px 14px}
+
+  .qz .ctn > div[style*="text-align:center"]{font-size:1.45rem!important;line-height:1.25!important;padding:0 4px}
+  .qz-box{padding:22px 16px;border-radius:20px}
+  .qz-bar{margin-bottom:24px}
+  .qz-dot{height:7px}
+  .qz-q{font-size:1.22rem;line-height:1.28;margin-bottom:8px}
+  .qz-h{font-size:.98rem;line-height:1.4;margin-bottom:16px}
+  .qz-opts{gap:10px}
+  .qz-opt{min-height:56px;padding:15px 14px;font-size:1rem;line-height:1.3;border-radius:16px;gap:12px}
+  .qz-opt .oi{font-size:1.35rem}
+  .qz-res .ri{font-size:3rem}
+  .qz-res h3{font-size:1.25rem;line-height:1.3}
+  .qz-res .rp{font-size:1.08rem;line-height:1.35}
+  .qz-res p{font-size:1rem;line-height:1.55}
+  .qz-why{padding:16px;border-radius:16px}
+  .qz-why .qw-title{font-size:.86rem;line-height:1.25}
+  .qz-why .qw-item{font-size:.96rem;line-height:1.45;padding:6px 0}
+
+  .sched .ctn > div[style*="margin-top:24px"],
+  .sched .ctn > div[style*="margin-top:32px"]{
+    background:var(--bg);
+    border-radius:18px;
+    padding:16px;
+    margin-top:22px!important;
+    margin-bottom:12px!important;
+  }
+  .sched .ctn > div[style*="margin-top:24px"] > div:first-child,
+  .sched .ctn > div[style*="margin-top:32px"] > div:first-child{
+    font-size:1.08rem!important;
+    line-height:1.25!important;
+  }
+  .sched .ctn > div[style*="margin-top:24px"] > div:last-child,
+  .sched .ctn > div[style*="margin-top:32px"] > div:last-child{
+    font-size:.96rem!important;
+    line-height:1.45!important;
+  }
+  .sc-grid{gap:12px;margin-top:14px}
+  .sc{padding:18px;border-radius:18px}
+  .sc-date{font-size:1.04rem;line-height:1.28;margin-bottom:10px}
+  .sc-fmt{font-size:.78rem;padding:5px 9px;border-radius:8px;margin-bottom:10px}
+  .sc-loc{font-size:.96rem;line-height:1.45;margin-bottom:10px;word-break:normal;overflow-wrap:anywhere}
+  .sc-progs{gap:7px}
+  .sc-pt{font-size:.78rem;padding:5px 8px;border-radius:8px;line-height:1.2}
+  .sc-note{font-size:.9rem;line-height:1.4}
+
+  .pr-grid{gap:16px;margin-top:22px}
+  .pr{padding:24px 18px;border-radius:20px}
+  .pr-label{font-size:.98rem;line-height:1.35}
+  .pr h3{font-size:1.18rem;line-height:1.25;margin-bottom:12px}
+  .pr-amt{font-size:2rem;line-height:1.1}
+  .pr-note{font-size:.92rem}
+  .pr-early{font-size:.94rem;line-height:1.45;padding:12px}
+  .pr-inc li{font-size:.98rem;line-height:1.4;padding:7px 0;align-items:flex-start}
+  .tax{font-size:.98rem;line-height:1.45;padding:16px;border-radius:16px}
+
+  .frm{text-align:left}
+  .frm-text h2{font-size:1.55rem;line-height:1.2}
+  .frm-text p{font-size:1.02rem;line-height:1.5}
+  .frm-phone{font-size:1.08rem;line-height:1.35;margin-bottom:18px;word-break:break-word}
+  .frm-box{padding:16px 12px;border-radius:20px;min-height:220px;overflow:hidden}
+  .frm-box iframe{max-width:100%!important}
+
+  .ft{padding:34px 0 22px}
+  .ft-grid{gap:22px}
+  .ft-brand{font-size:1.08rem}
+  .ft p,.ft a{font-size:.96rem;line-height:1.55}
+  .ft a{padding:5px 0}
+  .ft h4{font-size:1rem;margin-bottom:8px}
+  .ft-bot{font-size:.82rem;line-height:1.4}
+}
+
+@media(max-width:374px){
+  .ctn{padding:0 14px}
+  .hero h1{font-size:1.82rem}
+  .ttl{font-size:1.42rem}
+  .hero-p,.sub,.prog-d,.prog-ul li,.qz-opt,.pr-inc li{font-size:.96rem}
+  .btn{font-size:.95rem;padding-left:12px;padding-right:12px}
+  .hero-stat{padding:14px}
+  .hero-stat b{font-size:1.08rem}
+  .hero-stat small{font-size:.86rem}
+  .qz-box{padding:20px 14px}
+  .pr-amt{font-size:1.78rem}
+}
+
+
 /* ========== REVEAL ========== */
 
 </style>
@@ -296,7 +439,7 @@ a{text-decoration:none;color:inherit}
 
 <section class="hero">
   <div class="ctn">
-    <div class="hero-badge">&#127774; Лето 2026 · Химки</div>
+    <div class="hero-badge">&#127774; Лето 2026 · Мытищи</div>
     <h1>Летние IT-смены<br>для детей <span class="gr">7–16</span> лет</h1>
     <p class="hero-p">Программирование, нейросети, анимация и английский. 10 дней каникул с пользой&nbsp;— ребёнок создаст свой проект и презентует его.</p>
     <div class="hero-btns">
@@ -367,12 +510,12 @@ a{text-decoration:none;color:inherit}
     <div class="ttl">Как проходят наши смены</div>
     <p class="sub">Фото с прошлых летних интенсивов</p>
     <div class="gl-grid">
-          <div class="gl-item"><img src="img/1.jpg" alt="Занятие в Умной библиотеке" width="800" height="600"><span>Занятие в Умной библиотеке</span></div>
+          <div class="gl-item"><img src="img/1.jpg" alt="Занятия в оборудованном классе" width="800" height="600"><span>Занятия в оборудованном классе</span></div>
           <div class="gl-item"><img src="img/2.jpg" alt="Защита проектов перед аудиторией" width="800" height="600"><span>Защита проектов перед аудиторией</span></div>
-          <div class="gl-item"><img src="img/3.jpg" alt="Практическая работа" width="800" height="600"><span>Практическая работа</span></div>
-          <div class="gl-item"><img src="img/4.jpg" alt="Программирование в уютной атмосфере" width="800" height="600"><span>Программирование в уютной атмосфере</span></div>
-          <div class="gl-item"><img src="img/5.jpg" alt="Занятия в библиотеке" width="800" height="600"><span>Занятия в библиотеке</span></div>
-          <div class="gl-item"><img src="img/6.jpg" alt="Работа в команде" width="800" height="600"><span>Работа в команде</span></div>
+          <div class="gl-item"><img src="img/3.jpg" alt="Работа над проектами" width="800" height="600"><span>Работа над проектами</span></div>
+          <div class="gl-item"><img src="img/4.jpg" alt="Вручение сертификатов" width="800" height="600"><span>Вручение сертификатов</span></div>
+          <div class="gl-item"><img src="img/5.jpg" alt="Знакомство с робототехникой" width="800" height="600"><span>Знакомство с робототехникой</span></div>
+          <div class="gl-item"><img src="img/6.jpg" alt="Весёлые перемены и дружба" width="800" height="600"><span>Весёлые перемены и дружба</span></div>
     </div>
   </div>
 </section>
@@ -387,24 +530,24 @@ a{text-decoration:none;color:inherit}
         <div class="qz-step on" id="s1">
           <div class="qz-q">Сколько лет ребёнку?</div><div class="qz-h">Выберите возраст</div>
           <div class="qz-opts">
-            <button class="qz-opt" onclick="qa(1,'young')"><span class="oi">&#129490;</span>7–9 лет</button>
-            <button class="qz-opt" onclick="qa(1,'mid')"><span class="oi">&#128102;</span>10–12 лет</button>
-            <button class="qz-opt" onclick="qa(1,'teen')"><span class="oi">&#129489;</span>13–16 лет</button>
+            <button class="qz-opt" onclick="qa(1,\'young\',this)"><span class="oi">&#129490;</span>7–9 лет</button>
+            <button class="qz-opt" onclick="qa(1,\'mid\',this)"><span class="oi">&#128102;</span>10–12 лет</button>
+            <button class="qz-opt" onclick="qa(1,\'teen\',this)"><span class="oi">&#129489;</span>13–16 лет</button>
           </div>
         </div>
         <div class="qz-step" id="s2">
           <div class="qz-q">Что интересует?</div><div class="qz-h">Ближайшее направление</div>
           <div class="qz-opts">
-            <button class="qz-opt" onclick="qa(2,'cre')"><span class="oi">&#127912;</span>Творчество, видео, мультфильмы</button>
-            <button class="qz-opt" onclick="qa(2,'gam')"><span class="oi">&#127918;</span>Игры, сайты, цифровой мир</button>
-            <button class="qz-opt" onclick="qa(2,'tec')"><span class="oi">&#128187;</span>Программирование, ИИ, боты</button>
+            <button class="qz-opt" onclick="qa(2,\'cre\',this)"><span class="oi">&#127912;</span>Творчество, видео, мультфильмы</button>
+            <button class="qz-opt" onclick="qa(2,\'gam\',this)"><span class="oi">&#127918;</span>Игры, сайты, цифровой мир</button>
+            <button class="qz-opt" onclick="qa(2,\'tec\',this)"><span class="oi">&#128187;</span>Программирование, ИИ, боты</button>
           </div>
         </div>
         <div class="qz-step" id="s3">
-          <div class="qz-q">Какая площадка удобнее?</div><div class="qz-h">Обе в Химках, с 10:00 до 14:00</div>
+          <div class="qz-q">Какой формат?</div><div class="qz-h">Полный день: питание, прогулки, английский</div>
           <div class="qz-opts">
-            <button class="qz-opt" onclick="qa(3,'lib')"><span class="oi">&#128218;</span>Умная библиотека (Калинина 13) · 10 дней</button>
-            <button class="qz-opt" onclick="qa(3,'sch')"><span class="oi">&#128214;</span>Дет. библиотека №3 (Мельникова 29) · 8 дней</button>
+            <button class="qz-opt" onclick="qa(3,\'h\',this)"><span class="oi">&#127780;</span>Полдня (10:00 – 14:00)</button>
+            <button class="qz-opt" onclick="qa(3,\'f\',this)"><span class="oi">&#9728;&#65039;</span>Полный день (10:00 – 18:00)</button>
           </div>
         </div>
         <div class="qz-res" id="qr">
@@ -424,46 +567,36 @@ a{text-decoration:none;color:inherit}
 <section class="sec sched" id="schedule">
   <div class="ctn">
     <div class="ttl">Расписание смен</div>
-    <p class="sub">Две площадки в Химках — на обеих доступны все три программы</p>
-    <div style="margin-top:24px;margin-bottom:14px"><div style="font-family:Unbounded,cursive;font-weight:700;font-size:1rem;margin-bottom:6px">&#128218; Умная библиотека</div><div style="font-size:.82rem;color:var(--mute)">ул. Калинина, д. 13 · 10 дней, пн–пт · 10:00–14:00</div></div>
+    <p class="sub">6 смен за лето — программа повторяется каждые 2 недели</p>
     <div class="sc-grid">
-      <div class="sc"><div class="sc-date">1 – 12 июня</div><span class="sc-fmt fmt-h">10 дней</span><div class="sc-loc">&#128205; Калинина 13</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
-      <div class="sc"><div class="sc-date">15 – 26 июня</div><span class="sc-fmt fmt-h">10 дней</span><div class="sc-loc">&#128205; Калинина 13</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
-      <div class="sc"><div class="sc-date">29 июня – 10 июля</div><span class="sc-fmt fmt-h">10 дней</span><div class="sc-loc">&#128205; Калинина 13</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
-      <div class="sc"><div class="sc-date">13 – 24 июля</div><span class="sc-fmt fmt-h">10 дней</span><div class="sc-loc">&#128205; Калинина 13</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
-      <div class="sc"><div class="sc-date">27 июля – 7 авг.</div><span class="sc-fmt fmt-h">10 дней</span><div class="sc-loc">&#128205; Калинина 13</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
-      <div class="sc"><div class="sc-date">10 – 21 августа</div><span class="sc-fmt fmt-h">10 дней</span><div class="sc-loc">&#128205; Калинина 13</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
-    </div>
-    <div style="margin-top:32px;margin-bottom:14px"><div style="font-family:Unbounded,cursive;font-weight:700;font-size:1rem;margin-bottom:6px">&#128214; Детская библиотека №3 (школа №31)</div><div style="font-size:.82rem;color:var(--mute)">ул. Мельникова, д. 29, стр. 1 · 8 дней, вт–пт · 10:00–14:00</div></div>
-    <div class="sc-grid">
-      <div class="sc"><div class="sc-date">2 – 13 июня</div><span class="sc-fmt fmt-h">8 дней</span><div class="sc-loc">&#128205; Мельникова 29с1</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
-      <div class="sc"><div class="sc-date">16 – 27 июня</div><span class="sc-fmt fmt-h">8 дней</span><div class="sc-loc">&#128205; Мельникова 29с1</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
-      <div class="sc"><div class="sc-date">30 июня – 11 июля</div><span class="sc-fmt fmt-h">8 дней</span><div class="sc-loc">&#128205; Мельникова 29с1</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
-      <div class="sc"><div class="sc-date">14 – 25 июля</div><span class="sc-fmt fmt-h">8 дней</span><div class="sc-loc">&#128205; Мельникова 29с1</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
-      <div class="sc"><div class="sc-date">28 июля – 8 авг.</div><span class="sc-fmt fmt-h">8 дней</span><div class="sc-loc">&#128205; Мельникова 29с1</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
-      <div class="sc"><div class="sc-date">11 – 22 августа</div><span class="sc-fmt fmt-h">8 дней</span><div class="sc-loc">&#128205; Мельникова 29с1</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
+      <div class="sc fd"><div class="sc-date">1 – 12 июня</div><span class="sc-fmt fmt-h">Полдня</span><span class="sc-fmt fmt-f">+ Полный день</span><div class="sc-loc">&#128205; Артимолл, Станционная с7, 4 эт.</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div><div class="sc-note">Полный день: AI-Аниматор с Inspire</div></div>
+      <div class="sc"><div class="sc-date">15 – 26 июня</div><span class="sc-fmt fmt-h">Полдня</span><div class="sc-loc">&#128205; Артимолл, Станционная с7, 4 эт.</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
+      <div class="sc fd"><div class="sc-date">29 июня – 10 июля</div><span class="sc-fmt fmt-h">Полдня</span><span class="sc-fmt fmt-f">+ Полный день</span><div class="sc-loc">&#128205; Полдня: Артимолл · Полный: Смарт Скул, 3-я Крестьянская 17</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div><div class="sc-note">Полный день: AI-Аниматор в Смарт Скул</div></div>
+      <div class="sc fd"><div class="sc-date">13 – 24 июля</div><span class="sc-fmt fmt-h">Полдня</span><span class="sc-fmt fmt-f">+ Полный день</span><div class="sc-loc">&#128205; Полдня: Артимолл · Полный: Борисовка 16А</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div><div class="sc-note">Полный день: AI-Аниматор с OK English</div></div>
+      <div class="sc"><div class="sc-date">27 июля – 7 августа</div><span class="sc-fmt fmt-h">Полдня</span><div class="sc-loc">&#128205; Артимолл, Станционная с7, 4 эт.</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
+      <div class="sc"><div class="sc-date">10 – 21 августа</div><span class="sc-fmt fmt-h">Полдня</span><div class="sc-loc">&#128205; Артимолл, Станционная с7, 4 эт.</div><div class="sc-progs"><span class="sc-pt" style="background:#E8F9EE;color:#00A844">Вирт. город</span><span class="sc-pt" style="background:#EDE0F8;color:#7B2FBE">AI-Аниматор</span><span class="sc-pt" style="background:#FFF3CC;color:#B88200">ИИ Агенты</span></div></div>
     </div>
   </div>
 </section>
 
 <section class="sec price" id="pricing">
   <div class="ctn">
-    <div class="ttl">Стоимость обучения</div>
+    <div class="ttl">Стоимость <span class="gr">обучения</span></div>
     <p class="sub">Раннее бронирование — выгоднее. Перекусы включены.</p>
     <div class="pr-grid">
       <div class="pr">
-        <div class="pr-label">&#128218; Умная библиотека · 10 дней</div>
+        <div class="pr-label">Полдня · 10:00 – 14:00</div>
         <h3>Все программы</h3>
         <div class="pr-amt">16 190 &#8381;</div><div class="pr-note">при оплате до 15 мая</div>
         <div class="pr-early">16 990 &#8381; до 31 мая · 17 990 &#8381; базовая</div>
-        <ul class="pr-inc"><li>10 дней (5 для «ИИ Агенты»)</li><li>Группы до 12 человек</li><li>Перекусы: фрукты, снеки, соки, чай</li><li>Сертификат об окончании</li><li>Защита проектов</li></ul>
+        <ul class="pr-inc"><li>10 дней (5 для «ИИ Агенты»)</li><li>Группы до 12 человек</li><li>Перекусы: фрукты, снеки, соки</li><li>Сертификат</li><li>Защита проектов</li></ul>
       </div>
-      <div class="pr">
-        <div class="pr-label">&#128214; Дет. библиотека №3 · 8 дней</div>
-        <h3>Все программы</h3>
-        <div class="pr-amt">12 952 &#8381;</div><div class="pr-note">при оплате до 15 мая</div>
-        <div class="pr-early">13 592 &#8381; до 31 мая · 14 392 &#8381; базовая</div>
-        <ul class="pr-inc"><li>8 дней, вт–пт</li><li>Группы до 12 человек</li><li>Перекусы: фрукты, снеки, соки, чай</li><li>Сертификат об окончании</li><li>Защита проектов</li></ul>
+      <div class="pr feat">
+        <div class="pr-label">Полный день · 10:00 – 18:00</div>
+        <h3>AI-Аниматор</h3>
+        <div class="pr-amt">27 000 &#8381;</div><div class="pr-note">при оплате до 15 мая</div>
+        <div class="pr-early">Базовая: 30 000 &#8381; · Экономия 3 000 &#8381;</div>
+        <ul class="pr-inc"><li>20 занятий по программированию</li><li>Английский каждый день</li><li>Обеды и полдники</li><li>Прогулки в парке</li><li>Диплом и подарки</li></ul>
       </div>
     </div>
     <div class="tax">&#128161; Экономия 13% — налоговый вычет за образовательные услуги</div>
@@ -478,7 +611,7 @@ a{text-decoration:none;color:inherit}
       <a href="tel:+74992836273" class="frm-phone">&#128222; +7 499 283-62-73</a>
     </div>
     <div class="frm-box">
-      <script>!function(a,m,o,c,r,m){a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},a[o+r]({id:"1703674",hash:"a45ec52c8bd19a252a2f3f7d092ead05",locale:"ru"}),a[o+m]=a[o+m]||function(f,k){a[o+m].f=(a[o+m].f||[]).concat([[f,k]])}}(window,0,"amo_forms_","params","load","loaded");</script><script id="amoforms_script_1703674" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1777192669"></script>
+      <script>!function(a,m,o,c,r,m){a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},a[o+r]({id:"1703126",hash:"291b16472c8cc74b0de8a389bfeadd77",locale:"ru"}),a[o+m]=a[o+m]||function(f,k){a[o+m].f=(a[o+m].f||[]).concat([[f,k]])}}(window,0,"amo_forms_","params","load","loaded");</script><script id="amoforms_script_1703126" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1777028453"></script>
     </div>
   </div>
 </section>
@@ -486,11 +619,11 @@ a{text-decoration:none;color:inherit}
 <footer class="ft">
   <div class="ctn">
     <div class="ft-grid">
-      <div><div class="ft-brand">Алгоритмика Химки</div><p>Международная школа программирования для детей от 6 до 18 лет.</p></div>
+      <div><div class="ft-brand">Алгоритмика Мытищи</div><p>Международная школа программирования для детей от 6 до 18 лет.</p></div>
       <div><h4>Программы</h4><a href="#programs">Виртуальный город (7–9)</a><a href="#programs">AI-Аниматор (10–14)</a><a href="#programs">ИИ Агенты (13–16)</a></div>
-      <div><h4>Контакты</h4><a href="tel:+74992836273">+7 499 283-62-73</a><a href="#">г. Химки, ул. Калинина, 13</a></div>
+      <div><h4>Контакты</h4><a href="tel:+74992836273">+7 499 283-62-73</a><a href="#">г. Мытищи, ул. Станционная, с7</a></div>
     </div>
-    <div class="ft-bot">&copy; 2026 Алгоритмика Химки</div>
+    <div class="ft-bot">&copy; 2026 Алгоритмика Мытищи</div>
   </div>
 </footer>
 
@@ -499,11 +632,11 @@ document.getElementById('bg').onclick=function(){document.getElementById('nl').c
 document.querySelectorAll('#nl a').forEach(function(a){a.onclick=function(){document.getElementById('nl').classList.remove('open')}});
 
 var Q={a:null,i:null,f:null};
-function qa(step,v){
+function qa(step,v,el){
   if(step===1)Q.a=v;if(step===2)Q.i=v;if(step===3)Q.f=v;
   var opts=document.querySelectorAll('#s'+step+' .qz-opt');
   opts.forEach(function(o){o.classList.remove('sel')});
-  event.currentTarget.classList.add('sel');
+  (el || (window.event && window.event.currentTarget)).classList.add('sel');
   setTimeout(function(){
     if(step<3){
       document.getElementById('s'+step).classList.remove('on');
@@ -519,29 +652,77 @@ function qShow(){
   document.getElementById('d3').classList.remove('on');
   document.getElementById('d3').classList.add('done');
   var p,d,ic,why=[];
-  var venue=Q.f==='lib'?'\u0423\u043c\u043d\u043e\u0439 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0435 (\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0430 13)':'\u0414\u0435\u0442\u0441\u043a\u043e\u0439 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0435 \u21163 (\u041c\u0435\u043b\u044c\u043d\u0438\u043a\u043e\u0432\u0430 29)';
-  var days=Q.f==='lib'?'10':'8';
+
+  // === YOUNG (7-9) — always Виртуальный город ===
   if(Q.a==='young'){
-    p='\u00abВиртуальный город\u00bb (7\u20139 лет)';ic='\ud83c\udfd9\ufe0f';
-    if(Q.i==='cre'){d='Ваш ребёнок любит творчество — и в этой программе его ждёт море креатива!';why=['Создаст комикс и анимацию','Снимет и смонтирует промо-ролик','Нарисует карту виртуального города','Сделает пиксель-арт баннер']}
-    else if(Q.i==='gam'){d='Ребёнок интересуется играми — здесь он создаст их своими руками!';why=['Разработает игру-платформер в GDevelop','Создаст интерактивное кино','Построит сайт на Tilda','Сделает веб-квест с загадками']}
-    else{d='Ребёнок тянется к технологиям — здесь он освоит несколько инструментов!';why=['Создание сайтов на Tilda','Графический редактор и слои','Основы программирования через GDevelop','Видео, звук и графика']}
-  }else if(Q.a==='mid'){
-    p='\u00abAI-Аниматор\u00bb (10\u201314 лет)';ic='\ud83c\udfac';
-    if(Q.i==='cre'){d='Творческая натура раскроется по полной!';why=['2D-мультфильмы в Wick Editor','Комикс с нейросетями','Сценарий и 3D-анимация','Компьютерная графика','Защита проекта перед аудиторией']}
-    else if(Q.i==='tec'){d='Нейросети, движки и алгоритмы — масса полезного!';why=['ИИ для генерации сценариев','3D-движок Mine-imator','Анимация изнутри','Навык презентации проектов']}
-    else{d='Игры, мультфильмы и нейросети — всё попробует!';why=['2D/3D анимация и комиксы','Нейросети для контента','Профессиональные инструменты','Портфолио готовых работ']}
-  }else{
-    if(Q.i==='tec'||Q.i==='gam'){p='\u00abИИ Агенты\u00bb (13\u201316 лет)';ic='\ud83e\udd16';d=Q.i==='tec'?'Программирование и ИИ — то, что нужно!':'Любовь к играм — база для программирования!';why=['Промпты, которые работают','ИИ-ассистент в n8n без кода','Python-бот с нейросетью','ИИ-квест с памятью','5 дней — навыки для IT-профессии']}
-    else{p='\u00abAI-Аниматор\u00bb (10\u201314 лет)';ic='\ud83c\udfac';d='Творчество + технологии — идеально!';why=['Комиксы и мультфильмы с нейросетями','2D и 3D анимация','Сценарий в анимации','ИИ как инструмент творчества']}
+    p='\u00abВиртуальный город\u00bb (7\u20139 лет)';
+    ic='\ud83c\udfd9\ufe0f';
+    if(Q.i==='cre'){
+      d='Ваш ребёнок любит творчество \u2014 и в этой программе его ждёт море креатива!';
+      why=['Создаст собственный комикс и анимацию','Снимет и смонтирует настоящий промо-ролик','Нарисует графическую карту виртуального города','Сделает пиксель-арт баннер на выпускном'];
+    }else if(Q.i==='gam'){
+      d='Ребёнок интересуется играми и цифровым миром \u2014 здесь он создаст их своими руками!';
+      why=['Разработает собственную игру-платформер в GDevelop','Создаст интерактивное кино с ветвящимся сюжетом','Построит свой первый сайт на Tilda','Сделает веб-квест с загадками'];
+    }else{
+      d='Ребёнок тянется к технологиям \u2014 здесь он освоит сразу несколько цифровых инструментов!';
+      why=['Научится создавать сайты с нуля на Tilda','Освоит графический редактор и работу со слоями','Познакомится с основами программирования через GDevelop','Поймёт, как устроены видео, звук и графика в цифровом мире'];
+    }
+    if(Q.f==='f') why.push('Полный день пока доступен для возраста 10+, но в формате полдня будет не менее увлекательно!');
   }
-  why.push('Занятия в '+venue+', '+days+' дней, 10:00–14:00');
+  // === MID (10-12) — always AI-Аниматор ===
+  else if(Q.a==='mid'){
+    ic='\ud83c\udfac';
+    if(Q.f==='f'){
+      p='\u00abAI-Аниматор\u00bb \u2014 Полный день (10\u201314 лет)';
+      d='Полный день \u2014 максимум пользы и впечатлений за смену!';
+      why=['Ребёнок занят с 10:00 до 18:00 \u2014 не нужно думать, чем занять','Обеды и полдники включены в стоимость','Ежедневные прогулки на свежем воздухе в парке','Английский язык через игру с INSPIRE каждый день','Создаст полноценные 2D и 3D мультфильмы с нейросетями'];
+      if(Q.i==='cre') why.push('Идеально для творческого ребёнка: комиксы, сценарии, анимация и визуальный контент');
+      else if(Q.i==='tec') why.push('Даже для \u00abтехнаря\u00bb здесь много интересного: нейросети для генерации, 3D-движок Mine-imator, работа с графикой');
+      else why.push('Ребёнок попробует всё: от сценариев до 3D-анимации и работы с нейросетями');
+    }else{
+      p='\u00abAI-Аниматор\u00bb \u2014 Полдня (10\u201314 лет)';
+      if(Q.i==='cre'){
+        d='Творческая натура вашего ребёнка раскроется по полной!';
+        why=['Создаст несколько 2D-мультфильмов в Wick Editor','Нарисует графический комикс с помощью нейросетей','Напишет сценарий и воплотит его в 3D-анимацию','Научится работать с компьютерной графикой и сложными сюжетами','Защитит творческий проект перед аудиторией'];
+      }else if(Q.i==='tec'){
+        d='Даже для будущего программиста здесь масса полезного \u2014 нейросети, движки и алгоритмы!';
+        why=['Освоит работу с ИИ: генерация сценариев и визуального контента','Познакомится с 3D-движком Mine-imator (на базе Minecraft)','Поймёт, как устроена анимация \u2014 покадровая, скелетная, процедурная','Прокачает навык презентации технических проектов','10 дней практики \u2014 4 часа в день без перегрузки'];
+      }else{
+        d='Игры, мультфильмы и нейросети \u2014 ребёнок попробует всё!';
+        why=['2D-анимация, 3D-мультфильмы и графические комиксы','Работа с нейросетями для генерации контента','Освоит сразу несколько профессиональных инструментов','Создаст портфолио из нескольких готовых проектов','Удобный формат: 4 часа в день, без перегрузки'];
+      }
+    }
+  }
+  // === TEEN (13-16) ===
+  else{
+    if(Q.i==='tec'){
+      p='\u00abИИ Агенты\u00bb (13\u201316 лет)';ic='\ud83e\udd16';
+      d='Программирование и ИИ \u2014 именно то, что интересует вашего подростка!';
+      why=['Напишет промпты, которые реально работают \u2014 навык \u21161 в мире ИИ','Соберёт ИИ-ассистента без кода в n8n \u2014 реальный инструмент автоматизации','Создаст Python-бота с подключением к нейросети через API','Сделает ИИ-квест с памятью и ветвящимся сюжетом','За 5 интенсивных дней \u2014 навыки, которые пригодятся в любой IT-профессии'];
+    }else if(Q.i==='gam'){
+      p='\u00abИИ Агенты\u00bb (13\u201316 лет)';ic='\ud83e\udd16';
+      d='Любовь к играм \u2014 отличная база для программирования! Здесь ребёнок создаст свои игровые проекты с ИИ.';
+      why=['Создаст интерактивный ИИ-квест с ветвящимся сюжетом \u2014 как в любимых играх','Научится строить ботов, которые \u00abдумают\u00bb и запоминают контекст','Освоит Python \u2014 главный язык в геймдеве и ИИ','Поймёт, как работают нейросети изнутри, а не просто \u00abпользуется ChatGPT\u00bb','Мультимодальный финальный проект: текст + изображение + видео'];
+    }else{
+      // creative teen
+      if(Q.f==='f'){
+        p='\u00abAI-Аниматор\u00bb \u2014 Полный день (10\u201314 лет)';ic='\ud83c\udfac';
+        d='Для творческого подростка \u2014 полное погружение в анимацию, нейросети и английский!';
+        why=['2D и 3D мультфильмы \u2014 от идеи до готового проекта','Нейросети как инструмент художника: генерация персонажей, фонов, сценариев','Английский язык через живое общение каждый день','Прогулки в парке и полноценное питание \u2014 как в настоящем лагере','Диплом, фирменные подарки и портфолио готовых работ'];
+      }else{
+        p='\u00abAI-Аниматор\u00bb \u2014 Полдня (10\u201314 лет)';ic='\ud83c\udfac';
+        d='Творчество + технологии \u2014 идеальное сочетание для подростка с художественной жилкой!';
+        why=['Создаст комиксы и мультфильмы с помощью нейросетей','Освоит 2D-анимацию в Wick и 3D в Mine-imator','Напишет сценарий и воплотит историю в анимации','Научится использовать ИИ как профессиональный инструмент для творчества','4 часа в день \u2014 останется время на отдых и свои дела'];
+      }
+    }
+  }
+
   document.getElementById('ri').textContent=ic;
   document.getElementById('rp').textContent=p;
   document.getElementById('rd').textContent=d;
-  var wh='<div class="qw-title">Почему именно эта программа:</div>';
-  why.forEach(function(w){wh+='<div class="qw-item">'+w+'</div>'});
-  document.getElementById('qw').innerHTML=wh;
+  var whyHtml='<div class="qw-title">\u041f\u043e\u0447\u0435\u043c\u0443 \u0438\u043c\u0435\u043d\u043d\u043e \u044d\u0442\u0430 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430:</div>';
+  why.forEach(function(w){whyHtml+='<div class="qw-item">'+w+'</div>'});
+  document.getElementById('qw').innerHTML=whyHtml;
   document.getElementById('qr').classList.add('on');
 }
 function qReset(){
